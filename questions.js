@@ -1,56 +1,44 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "I support Trump",
         "effect": {
             "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "dipl": -10,
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The freer the markets, the freer the people.",
+        "question": "I support Biden.",
         "effect": {
             "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "dipl": 10,
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "I am unsure",
         "effect": {
             "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "dipl": 10,
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "We should increase taxes on the rich.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "econ": 0,
+            "dipl": 10,
+        }
+    },
+    {
+        "question": "The Private Sector is often more efficient than the public sector, and should continue to be.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+        }
+    },
+    {
+        "question": "We should keep NAFTA as it was.",
+        "effect": {
+            "econ": -5,
+            "dipl": 10,
         }
     },
     {
